@@ -39,7 +39,7 @@ The application files were organized in the `docker/lab8/` directory of the main
 
 ## 2. Dockerfile
 
-The Dockerfile uses Node.js 18 Alpine as the base image, installs dependencies, copies the application files, exposes port 3000, and starts the server.
+The Dockerfile uses Node.js 18 Alpine as the base image, installs dependencies, copies the application files, exposes port 3000, and starts the server
 
 ```dockerfile
 FROM node:18-alpine
