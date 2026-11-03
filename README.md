@@ -14,7 +14,7 @@ This lab demonstrates how to containerize a Node.js application and a MySQL data
 ## Project Structure
 
 ```text
-lab8/
+ivolveapp/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── db.js
