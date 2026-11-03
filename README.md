@@ -110,7 +110,7 @@ networks:
     name: ivolve-net
     driver: bridge
 ```
-
+.
 ## 4. Build and Start the Services
 
 Validate the Compose configuration:
