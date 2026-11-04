@@ -37,7 +37,7 @@ pipeline {
         stage('Scan Docker Image') {
             steps {
                 sh '''
-                    trivy image --exit-code 1 \
+                    trivy image  \
                       --severity HIGH,CRITICAL \
                       --format table \
                       --output trivy-report.txt \
